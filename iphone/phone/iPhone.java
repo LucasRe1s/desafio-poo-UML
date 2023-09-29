@@ -6,76 +6,67 @@ import iphone.interfaces.Telefone;
 
 public class iPhone implements Safari, Telefone, Ipod{
 
+    
     @Override
     public void selecionarArtistas() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'selecionarArtistas'");
+        System.out.println("Selecionando artistas");
     }
-
+    
     @Override
     public void play() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'play'");
+        System.out.println("Play");
     }
-
+    
     @Override
     public void pause() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pause'");
+        System.out.println("Musica pausada...");
     }
-
+    
     @Override
     public void exibirTecaldoNumerico() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'exibirTecaldoNumerico'");
+        System.out.println("Exibindo teclado numerico..");
     }
-
+    
     @Override
     public void discandoNuemro() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'discandoNuemro'");
+        System.out.println("Discando numero....");
     }
-
+    
     @Override
     public void chamando() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'chamando'");
+        System.out.println("Chamando...");
     }
-
+    
     @Override
     public void atendeu() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atendeu'");
+        System.out.println("Atendeu...");
     }
-
+    
     @Override
     public void recusado() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'recusado'");
+        System.out.println("Chamada recusada");
     }
-
+    
     @Override
     public void validarConexao() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'validarConexao'");
+        System.out.println("Validando conexão..");
     }
-
+    
     @Override
     public void exibirPagina() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'exibirPagina'");
+        validarConexao();
+        System.out.println("Exibindo página");
     }
-
+    
     @Override
     public void pesquisar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pesquisar'");
+        System.out.println("Pesquisando...");
+        fecharConexao();
     }
-
+    
     @Override
     public void fecharConexao() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fecharConexao'");
+        System.out.println("Fechando conexão");
     }
     
 }
