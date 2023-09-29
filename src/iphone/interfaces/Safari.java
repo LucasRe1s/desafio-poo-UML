@@ -1,11 +1,10 @@
 package iphone.interfaces;
 
 public interface Safari {
-    public void validarConexao();
     public void exibirPagina();
+    public void adicionarNovaAba();
+    public void atualizarPagina();
     
-    public void pesquisar();
-    public void fecharConexao();
 
     
 }
